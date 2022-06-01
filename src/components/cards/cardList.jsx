@@ -1,20 +1,13 @@
-import { Component } from "react";
 import Card from "./card.components";
 
 import './cardList.styles.css'
-class CardList extends Component
+
+const CardList=({monsters})=>
 {
 
 
-constructor()
-{
-    super();
 
-}
 
-render(){
-
-    const {monsters} = this.props;
     
     return (
         <div className="card-list">
@@ -29,7 +22,7 @@ render(){
     </div>
     )
     
-}
+
 
 
 
